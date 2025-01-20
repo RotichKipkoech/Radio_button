@@ -74,7 +74,7 @@ public class RadioButtonDemo extends JFrame {
             }
         };
 
-        // Add action listeners to each radio button
+        // Add action listeners to each radio button.
         birdButton.addActionListener(petSelectionListener);
         catButton.addActionListener(petSelectionListener);
         dogButton.addActionListener(petSelectionListener);
@@ -90,7 +90,7 @@ public class RadioButtonDemo extends JFrame {
         add(petLabel);
         add(petImageLabel);
 
-        // Set the default close operation and size
+        // Set the default close operation and size.
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(400, 400);
         setVisible(true);
